@@ -1,0 +1,44 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(../images/bg.jpg);
+	background-position: fixed;
+	background-size: cover;
+}
+
+.header {
+	width: 100%;
+	height: 7vh;
+	background-color: white;
+	position: fixed;
+	top: 0;
+}
+
+nav {
+	margin: auto;
+	width: 70%;
+
+}
+
+ h1 {
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;	
+	margin-top: 20vh;
+}
+
+nav ul {
+	margin: auto;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav #gibson {
+	width:35vh;
+}
+
+nav #fender {
+	width: 40vh;
+}
