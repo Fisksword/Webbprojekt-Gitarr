@@ -29,16 +29,32 @@ nav {
 
 nav ul {
 	margin: auto;
+	text-align: center;
 }
 
 nav li {
 	display: inline-block;
+	z-index: 1
+
 }
 
 nav #gibson {
 	width:35vh;
+	padding: 5vh;
 }
 
 nav #fender {
 	width: 40vh;
+	top: -5vh;
+}
+
+.slide {
+	background-color: red;
+	border: solid 5px white;
+	opacity: 0;
+}
+
+.slide:hover {
+	opacity: 1;
+	transition: all 0.7s;
 }
