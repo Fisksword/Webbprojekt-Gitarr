@@ -42,7 +42,6 @@ nav ul {
 
 nav li {
 	display: inline-block;
-<<<<<<< HEAD
 	padding: 5vh;
 	
 
@@ -54,25 +53,21 @@ nav li a {
 	font-family: 'Ubuntu', sans-serif;
 	width: 35vh;
 	font-size: 10vh;
-=======
 	z-index: 1
->>>>>>> origin/gh-pages
+
 
 }
 
 nav #gibson {
-<<<<<<< HEAD
+
 	width: 35vh;
-=======
 	width:35vh;
 	padding: 5vh;
->>>>>>> origin/gh-pages
 }
 
 
 nav #fender {
 	width: 40vh;
-<<<<<<< HEAD
 }
 
 .slide {
@@ -88,8 +83,6 @@ nav #fender {
 	height: 20vh;
 	opacity: 100%;
 	transition: all 0.7s;
-
-=======
 	top: -5vh;
 }
 
@@ -102,5 +95,5 @@ nav #fender {
 .slide:hover {
 	opacity: 1;
 	transition: all 0.7s;
->>>>>>> origin/gh-pages
+
 }
