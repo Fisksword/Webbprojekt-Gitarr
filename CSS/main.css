@@ -70,30 +70,15 @@ nav #fender {
 	width: 40vh;
 }
 
-.slide {
-	position: absolute;                          
-	background-color: red;
-	height: 20vh;
-	width: 35vh;
-	opacity: 0.5%;
-
-}
-
-.slide:hover {
-	height: 20vh;
-	opacity: 100%;
-	transition: all 0.7s;
-	top: -5vh;
-}
 
 .slide {
 	background-color: red;
 	border: solid 5px white;
-	opacity: 0;
+	visibility: hidden;
 }
 
 .slide:hover {
-	opacity: 1;
+	visibility: visible;
 	transition: all 0.7s;
 
 }
