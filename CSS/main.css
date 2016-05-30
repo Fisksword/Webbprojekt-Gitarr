@@ -79,7 +79,8 @@ body {
 }
 
 .start li:hover {
-	background-color: lightgrey;
+	background-color: #1c5faa ;
+	transition: 0.5s;
 }
 
 .start li a{
@@ -90,4 +91,9 @@ body {
 .start img#strat {
 	float: left;
 	margin-left: 50px;
+}
+
+.artist li img{
+	max-height: 200px;
+	max-width: 100px;
 }
