@@ -5,9 +5,18 @@
 	<title>Allt om Fender</title>
 	<link rel="stylesheet" href="CSS/main.css">
 	<link href='https://fonts.googleapis.com/css?family=Ubuntu:500,400,700' rel='stylesheet' type='text/css'>
+	<script src="jquery-1.12.4.min.js"></script>
+
 	<script>
-	function swap() {
-		document.getElementById(demo).src = "http://www.fmicassets.com/sites/fender.com/themes/img/instruments/learn-more-hdr/stratocaster/main-img.jpg"
+		$(document).ready(function(){
+			$('img').click(function(e) {
+				var newclass = $(this).attr('class');
+				var oldclass = $("#full-size").attr('class');
+				$("#full-size").fadeOut(function() {
+					$("#full-size").removeCall(oldclass).addClass(newclass).fadeIn('slow');
+				})
+			})
+		});
 	</script>
 </head>
 <body>
@@ -17,12 +26,13 @@
 	</div>
 	<div class="start" class="clearfix">
 		<h1>Signaturmodeller</h1>
-		<img src="http://www.fmicassets.com/sites/fender.com/themes/img/instruments/learn-more-hdr/stratocaster/main-img.jpg" id="strat" id="demo">
+		<div id="full-size" class="test">
+			&nbsp;
+		</div>
 		<ul class="artist">
-			<button onclick="swap()">Hello</button>
 			<li>
 				<a href="">
-				<img src="./Images/yngwie.jpg"><p><b>Yngwie Malmsteen</b></p><p id="small"> Av <a rel="nofollow" class="external text" href="http://flickr.com/photos/11718030@N07">Alterna2</a><a title="Creative Commons Attribution 2.0" href="http://creativecommons.org/licenses/by/2.0">CC BY 2.0</a></p></a></li>
+				<img id="yngwie" src="./Images/yngwie.jpg"><p><b>Yngwie Malmsteen</b></p><p id="small"> Av <a rel="nofollow" class="external text" href="http://flickr.com/photos/11718030@N07">Alterna2</a><a title="Creative Commons Attribution 2.0" href="http://creativecommons.org/licenses/by/2.0">CC BY 2.0</a></p></a></li>
 
 			<li><img src=""></li>
 			<li><img src=""></li>

@@ -103,6 +103,21 @@ body {
 	max-width: 100px;
 }
 
+div#full-size {
+	float: left;
+	width: 500px;
+	height: 500px;
+	background-size: contain;
+}
+
+div.test {
+	background-image: url('../Images/Stratocaster.jpg');
+}
+
+div.yngwie {
+	background-image: url('../Images/Telecaster.jpg');
+}
+
 @media screen and (max-width: 850px ) {
 	.start {
 		margin: 50px 0 0 0;
