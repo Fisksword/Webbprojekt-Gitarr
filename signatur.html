@@ -13,7 +13,7 @@
 					var newclass = $(this).attr('class');
 					var oldclass = $("#full-size").attr('class');
 					$("#full-size").fadeOut(function() {
-						$("#full-size").removeCall(oldclass).addClass(newclass).fadeIn('slow');
+						$("#full-size").removeClass(oldclass).addClass(newclass).fadeIn('slow');
 				})
 			})
 		});
@@ -25,22 +25,15 @@
 		<a href="index.html"><img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Fender_logo_svg.png" alt="" align="top"></a>
 		<a href="#"><h2>Om</h2></a>
 	</div>
-	<div class="start" class="clearfix">
+	<div  class="start" class="clearfix">
 		<h1>Signaturmodeller</h1>
-		<div id="full-size" class="test">
-			&nbsp;
+		<div id="gallery">
+		
+				<img id="yngwie" src="./Images/yngwie.jpg"><p><b>Yngwie Malmsteen</b></p><p id="small"> Av <a rel="nofollow" class="external text" href="http://flickr.com/photos/11718030@N07">Alterna2</a><a title="Creative Commons Attribution 2.0" href="http://creativecommons.org/licenses/by/2.0">CC BY 2.0</a></p>
 		</div>
-		<ul class="artist">
-			<li>
-				<a href="">
-				<img id="yngwie" src="./Images/yngwie.jpg"><p><b>Yngwie Malmsteen</b></p><p id="small"> Av <a rel="nofollow" class="external text" href="http://flickr.com/photos/11718030@N07">Alterna2</a><a title="Creative Commons Attribution 2.0" href="http://creativecommons.org/licenses/by/2.0">CC BY 2.0</a></p></a></li>
-
-			<li><img src=""></li>
-			<li><img src=""></li>
-			<li><img src=""></li>
-		</ul>
-	
-	</div>
-	
+		<div id="full-size" class="test">
+			hej
+		</div>
+	</div>	
 </body>
 </html>
