@@ -53,6 +53,7 @@ body {
 .start img {
 	margin-top: 20px;
 	max-width: 300px;
+	width: 60%;
 }
 
 .start h1 {
@@ -64,11 +65,11 @@ body {
 
 .start ul {
 	margin: auto;
-	padding: 0;
-	
-
-
+	padding: 0;	
 }
+
+
+
 
 .start li {
 
@@ -78,7 +79,7 @@ body {
 	
 }
 
-.start li:hover {
+.start li#start:hover .Hello {
 	background-color: #1c5faa ;
 	transition: 0.5s;
 }
@@ -93,7 +94,28 @@ body {
 	margin-left: 50px;
 }
 
+.artist #small{
+	font-size: 50%;
+}
+
 .artist li img{
 	max-height: 200px;
 	max-width: 100px;
 }
+
+@media screen and (max-width: 850px ) {
+	.start {
+		margin: 50px 0 0 0;
+		width: 100%;
+	
+	
+}
+}
+
+@media screen and (max-width: 450px ) {
+	.start li {
+		width: 100%;
+	}
+	
+}
+
