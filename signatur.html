@@ -6,18 +6,6 @@
 	<link rel="stylesheet" href="CSS/main.css">
 	<link href='https://fonts.googleapis.com/css?family=Ubuntu:500,400,700' rel='stylesheet' type='text/css'>
 	<script src="jquery-1.12.4.min.js"></script>
-
-	<script>
-		$(document).ready(function(){
-			$('img').click(function(e) {
-				var newclass = $(this).attr('class');
-				var oldclass = $("#full-size").attr('class');
-				$("#full-size").fadeOut(function() {
-					$("#full-size").removeCall(oldclass).addClass(newclass).fadeIn('slow');
-				})
-			})
-		});
-	</script>
 </head>
 <body>
 	<div class="header">
@@ -39,4 +27,15 @@
 			<li><img src=""></li>
 		</ul>
 	</div>
+	<script>
+		$(document).ready(function(){
+			$('img').click(function(e) {
+				var newclass = $(this).attr('class');
+				var oldclass = $("#full-size").attr('class');
+				$("#full-size").fadeOut(function() {
+					$("#full-size").removeCall(oldclass).addClass(newclass).fadeIn('slow');
+				})
+			})
+		});
+	</script>
 </html>
