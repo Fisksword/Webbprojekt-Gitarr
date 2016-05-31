@@ -111,11 +111,11 @@ div#full-size {
 }
 
 div.test {
-	background-image: url('../Images/Stratocaster.jpg');
+	background-image: url('../Images/Telecaster.jpg');
 }
 
 div.yngwie {
-	background-image: url('../Images/Telecaster.jpg');
+	background-image: url('../Images/Stratocaster.jpg');
 }
 
 @media screen and (max-width: 850px ) {
