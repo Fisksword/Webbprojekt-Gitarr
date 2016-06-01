@@ -148,9 +148,10 @@ div.jimroot {
 	.start {
 		margin: 50px 0 0 0;
 		width: 100%;
-	
-	
 }
+	div .full-size {
+		transform: rotate(-90deg);
+	}
 }
 
 @media screen and (max-width: 450px ) {
