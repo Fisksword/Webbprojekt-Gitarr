@@ -46,7 +46,7 @@ body {
 	background-color: white;
 	margin: 50px 12% 0 12%;
 	text-align: center;
-	padding-bottom: 30px;
+	padding: 0 0 30px 0 ;
 	
 }
 
@@ -153,7 +153,7 @@ div.jimroot {
 
 @media screen and (max-width: 850px ) {
 	.start {
-		margin: 50px 0 0 0;
+		margin: 40px 0 0 0;
 		width: 100%;
 }
 
