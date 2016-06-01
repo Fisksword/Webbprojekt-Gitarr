@@ -105,19 +105,42 @@ body {
 }
 
 div#full-size {
-	float: left;
-	width: 500px;
-	height: 500px;
-	background-size: contain;
+	margin: auto;
+	height: 300px;
+	width: 886px;
+	background-size: cover;
+	
 }
 
-div.test {
-	background-image: url('../Images/Telecaster.jpg');
+div #gallery img {
+	max-width: 100px;
+	margin: auto;
+
+}
+
+figure {
+	display: inline-block;
+	margin: 0;
+}
+
+div.ett {
+	background-image: url('../Images/startgitarr.png');
 }
 
 div.yngwie {
 	background-image: url('../Images/yngwiegitarr.png');
 }
+
+div.jimi {
+	background-image: url('../Images/jimigitarr.png');
+}
+
+
+div.jimroot {
+	background-image: url('../Images/jimrootgitarr.png');
+}
+
+
 
 @media screen and (max-width: 850px ) {
 	.start {

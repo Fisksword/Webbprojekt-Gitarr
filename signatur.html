@@ -10,7 +10,8 @@
 		<script>
 			$(document).ready(function(){
 				$('img').click(function(e) {
-					var newclass = $(this).attr('class');
+					var newclass = $(this).attr('id');
+					console.log(newclass);
 					var oldclass = $("#full-size").attr('class');
 					$("#full-size").fadeOut(function() {
 						$("#full-size").removeClass(oldclass).addClass(newclass).fadeIn('slow');
@@ -27,13 +28,23 @@
 	</div>
 	<div  class="start" class="clearfix">
 		<h1>Signaturmodeller</h1>
+		<div id="full-size" class="ett">
+		</div>
 		<div id="gallery">
-		
-				<img id="yngwie" src="./Images/yngwie.jpg"><p><b>Yngwie Malmsteen</b></p><p id="small"> Av <a rel="nofollow" class="external text" href="http://flickr.com/photos/11718030@N07">Alterna2</a><a title="Creative Commons Attribution 2.0" href="http://creativecommons.org/licenses/by/2.0">CC BY 2.0</a></p>
+				<figure>
+				<img id="yngwie" src="./Images/yngwie.jpg"></img>
+				<figcaption>Yngwie Malmsteen</figcaption>
+				</figure>
+				<figure>
+				<img src="./Images/yngwie.jpg" id="jimroot"></img>
+				<figcaption>Jim Root</figcaption>
+				</figure>
+				<figure>
+				<img src="./Images/yngwie.jpg" id="jimi"></img>
+				<figcaption>Jimi Hendrix</figcaption>
+				</figure>
 		</div>
-		<div id="full-size" class="test">
-			hej
-		</div>
+
 	</div>	
 </body>
 </html>
