@@ -114,9 +114,14 @@ div#full-size {
 }
 
 div #gallery img {
+	width:100px;
 	max-width: 100px;
 	margin: auto;
 
+}
+
+div #galler a {
+	text-decoration: none;
 }
 
 figure {
