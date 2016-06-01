@@ -109,7 +109,9 @@ div#full-size {
 	height: 300px;
 	width: 886px;
 	max-width: 100%;
-	background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
 	
 }
 
@@ -151,18 +153,32 @@ div.jimroot {
 
 @media screen and (max-width: 850px ) {
 	.start {
-		margin: 50px 0 0 0;
+		margin: 35px 0 0 0;
 		width: 100%;
 }
-	div .full-size {
-		transform: rotate(-90deg);
-	}
 }
 
 @media screen and (max-width: 450px ) {
 	.start li {
 		width: 100%;
 	}
+
+		div.ett {
+	background-image: url('../Images/startgitarrvertical.png');
+}
+	div.yngwie {
+	background-image: url('../Images/yngwiegitarrvertical.png');
+}
+
+	div.jimi {
+	background-image: url('../Images/jimigitarrvertical.png');
+}
+
+
+	div.jimroot {
+	background-image: url('../Images/jimrootgitarrvertical.png');
+}
+
 	
 }
 
